@@ -1,0 +1,71 @@
+body{
+    font-family: 'Hachi Maru Pop', cursive;
+    background: url('https://source.unsplash.com/random/2400x1800');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.all{
+    display: block;
+    width: 700px;
+    height: 700px;
+    background-color: black;
+    opacity: 0.7;
+    box-shadow: -10px -10px lightsalmon;
+    margin: 40px auto;
+}
+.image img{
+    display: block;
+    align-items: center;
+    width: 125px;
+    height: 125px;
+    margin: 35px auto;
+    box-shadow: -8px -8px darkorange;
+    transform: scale(1);
+    transition: 0.07s else-in-out;
+}
+.image img:hover{
+    transform: scale(1.05);
+}
+.social{
+    color: floralwhite;
+    display: block;
+    margin: 10px auto;
+    font-size: 25px;
+}
+.social p a{
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+    font-family: 'Hachi Maru Pop', cursive;
+    font-size: 25px;
+    color: floralwhite;
+}
+.social p a:hover{
+    font-weight: bolder;
+    color: floralwhite;
+}
+.social p a:active{
+    font-weight: bolder;
+    color: floralwhite;
+}
+.social a{
+    display: block;
+    font-family: 'Hachi Maru Pop', cursive;
+    text-align: center;
+    text-decoration: none;
+    color: floralwhite;
+    font-size: 25px;
+}
+.social a:hover{
+    font-weight: bolder;
+    color: whitesmoke;
+}
+.social a:active{
+    font-weight: bolder;
+    color: whitesmoke;
+}

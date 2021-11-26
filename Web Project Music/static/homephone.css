@@ -1,0 +1,75 @@
+body{
+    background: url('https://source.unsplash.com/random/400x900');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.main{
+    margin: 10px;
+    padding: 10px;
+}
+.logo img{
+    height: 175px;
+    width: 175px;
+}
+.navbar{
+    box-shadow: -8px -8px lightgoldenrodyellow;
+}
+.nav ul{
+    margin-right: 35px;
+}
+.nav ul li a{
+    font-size: 15px;
+    padding: 8px 8px;
+}
+.searchbar{
+    height: 200px;
+    box-shadow: 8px 8px darkkhaki;
+}
+#search{
+    height: 13px;
+    font-size: 15px;
+    box-shadow: -8px -8px lightgreen;
+    width: 56%;
+    margin: 10px auto;
+}
+.btn{
+    width: 28%;
+    font-size: 15px;
+    box-shadow: 8px 8px darkkhaki;
+    margin: 10px auto;
+}
+.share{
+    font-size: 10px;
+    margin: 18px auto;
+}
+.img img{
+    height: 45px;
+    width: 45px;
+    padding: 0px 0px;
+}
+.block:nth-child(2n + 0){
+    box-shadow: -8px -8px darkkhaki;
+}
+.block:nth-child(2n + 1){
+    box-shadow: -8px -8px lightgoldenrodyellow;
+}
+.block p{
+    font-size: 9.75px;
+}
+.b{
+    margin-right: 0px;
+    height: 20px;
+}
+.b a{
+    font-size: 12px;
+}
+.page ul{
+    margin-right: 40px;
+}
+.page ul li a{
+    font-size: 15px;
+}
+.footerimg img{
+    height: 150px;
+    width: 300px;
+}

@@ -1,0 +1,15 @@
+body{
+    background: url('https://source.unsplash.com/random/400x900');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.all{
+    width: 300px;
+    height: 550px;
+}
+.social a{
+    font-size: 20px;
+}
+.social p a{
+    font-size: 18px;
+}

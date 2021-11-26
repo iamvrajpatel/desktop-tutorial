@@ -1,0 +1,22 @@
+.all{
+    width: 650px;
+    height: 800px;
+}
+.songimg img{
+    height: 250px;
+    width: 200px;
+}
+.songname{
+    font-size: 25px;
+    margin: 20px auto;
+}
+.singer{
+    font-size: 25px;
+    margin: 20px auto;
+}
+.song audio{
+    margin: 60px auto;
+}
+.btn a{
+    font-size: 25px;
+}

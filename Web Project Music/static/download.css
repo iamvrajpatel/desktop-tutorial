@@ -1,0 +1,140 @@
+body{
+    background: url('https://source.unsplash.com/random/1600x900');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: 'Hachi Maru Pop', cursive;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.all{
+    background-color: black;
+    height: 700px;
+    width: 700px;
+    display: block;
+    box-shadow: -10px -10px darkkhaki; 
+    align-items: center;
+    margin: 40px auto;
+    opacity: 0.7599;
+}
+.songimg{
+    overflow: hidden;
+    margin: 0px 10px;
+}
+.songimg img{
+    display: block;
+    margin: 30px auto;
+    align-items: center;
+    height: 150px;
+    width: 120px;
+    box-shadow: -8px -8px lightgreen;
+    transform: scale(1);
+    transition: 0.5s else-in-out;
+}
+.songimg img:hover{
+    transform: scale(1.05);
+}
+.songimg img:active{
+    transform: scale(1.05);
+}
+.songname{
+    display: block;
+    text-align: center;
+    font-size: 23px;
+    color: white;
+    font-family: 'Hachi Maru Pop', cursive;
+    cursor: pointer;
+    margin: 30px auto;
+    box-shadow: -8px -8px orangered;
+    width: 65%;
+}
+.songname:hover{
+    color: white;
+    font-weight: bolder;
+}
+.songname:active{
+    color: white;
+    font-weight: bolder;
+}
+.singer{
+    box-shadow: 8px 8px darkgreen;
+    display: block;
+    width: 65%;
+    text-align: center;
+    font-size: 23px;
+    color: white;
+    font-family: 'Hachi Maru Pop', cursive;
+    cursor: pointer;
+    margin: 30px auto;
+}
+.singer:hover{
+    color: white;
+    font-weight: bolder;
+}
+.singer:active{
+    color: white;
+    font-weight: bolder;
+}
+.song{
+    display: block;
+    align-items: center;
+}
+.song audio{
+    display: block;
+    align-items: center;
+    height: 30px;
+    width: 500px;
+    margin: 40px auto;
+}
+.button{
+    display: block;
+    align-items: center;
+}
+.btn{
+    display: block;
+    align-items: center;
+    margin: 40px auto;
+    padding: 7px 7px;
+    background-color: red;
+    border: 0px solid red;
+}
+.btn a{
+    display: block;
+    text-align: center;
+    color: lightgoldenrodyellow;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Hachi Maru Pop', cursive;
+    opacity: 1;
+}
+.btn:hover{
+    background-color: black;
+    /* box-shadow: -8px -8px lightgoldenrodyellow; */
+}
+.btn:active{
+    background-color: black;
+    /* box-shadow: -8px -8px lightgoldenrodyellow; */
+}
+.btn a:hover{
+    font-weight: bolder;
+    color: lightgreen;
+}
+.btn a:active{
+    font-weight: bolder;
+    color: lightgreen;
+}
+.quality{
+    color: whitesmoke;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    margin: 10px auto;
+}
+.quality:hover{
+    font-weight: bolder;
+}
+.quality:active{
+    font-weight: bolder;
+}

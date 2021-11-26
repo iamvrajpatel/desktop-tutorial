@@ -1,0 +1,30 @@
+body{
+    background: url('https://source.unsplash.com/random/400x900');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.all{
+    width: auto;
+    height: auto;
+    margin: 10px;
+}
+
+.header img{
+    height: 250px;
+    width: 250px;
+}
+.speech h1{
+    font-size: 25px;
+    margin: 10px 10px;
+    margin-bottom: 25px;
+}
+.speech p{
+    font-size: 20px;
+    margin: 0px 0px;
+}
+.button{
+    height: 250px;
+}
+.social a{
+    font-size: 20px;
+}

@@ -1,0 +1,72 @@
+doctype html
+html 
+    head 
+        block style 
+            link(rel='stylesheet' href='../static/home.css')
+            link(rel='stylesheet' media='screen and (max-width:700px)' href='../static/homephone.css')
+            link(rel='stylesheet' media='(min-width:700px) and (max-width:1000px)' href='../static/hometab.css')
+            link(href='https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap' rel='stylesheet')
+         
+
+    body 
+        .main
+            .navbar
+                .logo
+                    img(src='../static/headerlogo.png' alt='Not Found')
+                .nav
+                    ul
+                        li
+                            a(href='./home') Home
+                        li
+                            a(href='#search') Search
+                        li
+                            a(href='#song') Song
+                        li
+                            a(href='./about') About
+
+            .searchbar
+                input#search(type='text' placeholder='Search Here..!' onkeyup='search_song()')
+                button.btn(type='submit') Search
+
+            .share
+                | If You Like This Then Share It With Your Friends, Relatives and Colleagues..!
+
+            .singer
+                .singer1  
+                    ul  
+                        li 
+                            a(href="arijitsingh") Arijit Singh  
+                .singer2 
+                    ul 
+                        li 
+                            a(href="jubin-nautiyal") Jubin Nautiyal   
+                .singer3 
+                    ul 
+                        li 
+                            a(href="atif-aslam") Atif Aslam 
+
+
+        //- .searchbar
+        //-     input#search(type='text' placehoSlder='Search Here..!' onkeyup='search_song()')
+        //-     button.btn(type='submit') Search
+        block content 
+
+        block script 
+            script(src="/data.js") 
+            script(src="/search.js") 
+            //- script(type='text/javascript'){
+            //-     function search_song(){
+            //-         let input = document.getElementById('search').value
+            //-         input = input.toLowerCase();
+            //-         let x = document.getElementsByClassName('block');
+                    
+            //-         for (i = 0; i < x.length; i++){
+            //-             if (!x[i].innerHTML.toLowerCase().includes(input)) {
+            //-                 x[i].style.display="none";
+            //-             }
+            //-             else {
+            //-                 x[i].style.display="div-item"
+            //-             }
+            //-         }
+            //-     }
+            //- }

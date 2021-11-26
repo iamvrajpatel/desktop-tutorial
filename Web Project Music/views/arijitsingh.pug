@@ -1,0 +1,38 @@
+doctype html
+head
+  title Home | VmUsic
+  link(rel='stylesheet' href='../static/singer.css')
+  link(rel='stylesheet' media='screen and (max-width:700px)' href='../static/homephone.css')
+  link(rel='stylesheet' media='(min-width:700px) and (max-width:1000px)' href='../static/hometab.css')
+  link(href='https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap' rel='stylesheet')
+.main
+  .navbar
+    .logo
+      img(src='../static/headerlogo.png' alt='Not Found')
+    .nav
+      ul
+        li
+          a(href='./home') Home
+        li
+          a(href='#search') Search
+        li
+          a(href='#song') Song
+        li
+          a(href='./about') About
+  .searchbar
+    input#search(type='text' placeholder='Search Here..!' onkeyup='search_song()')
+    button.btn(type='submit') Search
+
+  .share
+    | If You Like This Then Share It With Your Friends, Relatives and Colleagues..!
+
+
+    .block
+      .img
+        img(src='../static/image/shayad.jpg' alt='Not Found')
+      p
+        | Shayad
+        br
+        | Pritam, Arijit Singh - Love Aaj Kal
+      button.b
+        a(href='./shayad') Download

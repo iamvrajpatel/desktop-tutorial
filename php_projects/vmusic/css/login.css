@@ -1,0 +1,45 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-image: url("./wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.login {
+    height: 725px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#myForm {
+    box-shadow: 0px 20px 0px hotpink;
+    border-radius: 10px;
+    padding:10px;
+    background-color: aliceblue;
+}
+
+#myForm h2 a{
+    font-size:x-large;
+    text-decoration: none;
+    color: blueviolet;
+}
+.table{
+    display: flex;
+    margin: 10px;
+}
+.table td label{
+    float: left;
+}
+.table td span{
+    font-size:large;
+    color: red;
+    float: left;
+}
+.table tr td input[type="submit"]{
+    margin-left: 80%;
+}
